@@ -29,6 +29,7 @@ async function main() {
   array.add(3)
   array.removeNoneGap(3)
   console.log("array: ",await array.get())
+  console.log("count: ",await array.count())
 }
 
 
