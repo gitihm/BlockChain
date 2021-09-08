@@ -64,3 +64,11 @@ Variables are declared as either storage, memory or calldata to explicitly speci
 - storage - variable is a state variable (store on blockchain)
 - memory - variable is in memory and it exists while a function is being called
 - calldata - special data location that contains function arguments, only available for external functions
+
+### View and Pure Functions
+Getter functions can be declared view or pure.
+
+**View** function declares that no state will be changed.
+
+**Pure** function declares that no state variable will be changed or read.
+
