@@ -57,7 +57,7 @@ There are 2 upper bounds to the amount of gas you can spend
 - **gas limit** (max amount of gas you're willing to use for your transaction, set by you)
 - **block gas limit** (max amount of gas allowed in a block, set by the network)
 
-### Data Locations - Storage, Memory and Calldata
+## Data Locations - Storage, Memory and Calldata
 
 Variables are declared as either storage, memory or calldata to explicitly specify the location of the data.
 
@@ -65,7 +65,7 @@ Variables are declared as either storage, memory or calldata to explicitly speci
 - memory - variable is in memory and it exists while a function is being called
 - calldata - special data location that contains function arguments, only available for external functions
 
-### View and Pure Functions
+## View and Pure Functions
 Getter functions can be declared view or pure.
 
 **View** function declares that no state will be changed.
