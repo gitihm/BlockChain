@@ -81,3 +81,15 @@ You can throw an error by calling require, revert or assert.
 - **require** is used to validate inputs and conditions before execution.
 - **revert** is similar to require. See the code below for details.
 - **assert** is used to check for code that should never be false. Failing assertion probably means that there is a bug.
+
+## Visibility
+
+Functions and state variables have to declare whether they are accessible by other contracts.
+
+Functions can be declared as
+
+- **public** - any contract and account can call
+- **private** - only inside the contract that defines the function
+- **internal**- only inside contract that inherits an internal function
+- **external** - only other contracts and accounts can call
+State variables can be declared as public, private, or internal but not external.
